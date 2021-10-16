@@ -3,7 +3,7 @@
 /* 
 
     You can write your own styles here...
-    
+
     
     ...Or you can use the import command to include 
     other sylesheets into your bunde as well, e.j:
@@ -11,3 +11,19 @@
     import 'relative/path/to/stylesheet.scss';
 
 */
+
+.card {
+    width: 240px;
+}
+
+.jumbotron > h1 {
+    font-weight: bold;
+}
+
+.navbar-brand {
+    margin-left: 100px;
+}
+
+.collapse {
+    margin-right: 100px;
+}
