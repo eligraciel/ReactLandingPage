@@ -7,48 +7,42 @@ import PropTypes from "prop-types";
 //create your first component
 export const Navegador = () => {
 	return (
-		<nav className="navbar navbar-expand-lg navbar-dark bg-dark mb-3">
-			<div className="mx-5">
-				<a className="navbar-brand" href="#">
-					Start Bootstrat
+		<nav className="navbar navbar-expand-lg navbar-dark bg-dark">
+			<div className="container-fluid">
+				<a
+					className="navbar-brand d-flex justify-content-start"
+					href="#">
+					Bootstrap Start
 				</a>
 				<button
 					className="navbar-toggler"
 					type="button"
-					data-toggle="collapse"
-					data-target="#navbarSupportedContent"
-					aria-controls="navbarSupportedContent"
+					data-bs-toggle="collapse"
+					data-bs-target="#navbarNavAltMarkup"
+					aria-controls="navbarNavAltMarkup"
 					aria-expanded="false"
 					aria-label="Toggle navigation">
 					<span className="navbar-toggler-icon"></span>
 				</button>
-			</div>
-
-			<div
-				className="collapse navbar-collapse d-flex flex-row-reverse"
-				id="navbarSupportedContent">
-				<ul className="navbar-nav mr-auto mx-5">
-					<li className="nav-item active">
-						<a className="nav-link" href="#">
-							Home <span className="sr-only">(current)</span>
+				<div
+					className="collapse navbar-collapse d-md-flex justify-content-end"
+					id="navbarNavAltMarkup">
+					<div className="navbar-nav">
+						<a
+							className="nav-link active"
+							aria-current="page"
+							href="#">
+							Home
 						</a>
-					</li>
-					<li className="nav-item">
 						<a className="nav-link" href="#">
 							About
 						</a>
-					</li>
-					<li className="nav-item">
 						<a className="nav-link" href="#">
 							Service
 						</a>
-					</li>
-					<li className="nav-item">
-						<a className="nav-link" href="#">
-							Contact
-						</a>
-					</li>
-				</ul>
+						<a className="nav-link">Contact</a>
+					</div>
+				</div>
 			</div>
 		</nav>
 	);

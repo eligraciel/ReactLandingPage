@@ -15,9 +15,9 @@ const Construir = () => {
 	return (
 		<>
 			<Navegador />
-			<div className="container w-65">
+			<div className="container">
 				<Jumbotrom />
-				<div className="d-flex justify-content-between mx-5">
+				<div className="d-flex mx-5 flex-wrap justify-content-around">
 					<Tarjetas
 						imagen="https://picsum.photos/id/879/500/325"
 						titulo="Prueba1"
